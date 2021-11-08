@@ -1,8 +1,10 @@
 /*
+1)Color_picker 
+
 1. Trigger the eventwhen the user click on the button
 2. Write the function to generate-color
 3. Apply to the background color
-*/
+
 
 //1. Trigger the eventwhen the user click on the button
 let myButton = document.getElementById('color-generator');
@@ -41,3 +43,6 @@ function.generateRandomColor(){
     return style;
 
 }
+*/
+
+
