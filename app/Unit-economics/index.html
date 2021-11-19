@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+  </head>
+  <style>
+    div {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+  <body>
+    <form action="" id="unit-economics-form">
+      <a href="calculate.php">Go to Calculation page</a>
+      <h1>Unit Economics</h1>
+      <div>
+        <label for="">Selling Price</label>
+        <input type="number" name="sellingPrice" id="selling-price" value="0" />
+      </div>
+      <div>
+        <label for="">COGS(Cost of Goods Sold)</label>
+        <input type="number" name="cogs" id="cogs" value="0" />
+      </div>
+      <div>
+        <label for="">Gross Margin</label>
+        <input type="number" name="grossMargin" id="gross-margin" disabled />
+      </div>
+      <div>
+        <label for="">Sales And Marketing</label>
+        <input type="number" name="salesMarketing" id="sales-marketing" value="0" />
+      </div>
+      <div>
+        <label for="">Operational Cost</label>
+        <input type="number" name="operationCost" id="operation-cost" value="0" />
+      </div>
+      <div>
+        <label for="">Net Margin</label>
+        <input type="number" name="operationCost" id="net-margin" disabled />
+      </div>
+      <div>
+        <label for="">Calculate</label>
+        <input type="button" name="calculate" id="calculate" value="calculate" />
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>

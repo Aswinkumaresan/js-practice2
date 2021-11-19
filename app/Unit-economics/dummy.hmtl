@@ -1,0 +1,93 @@
+let = document.getElementById('calculate'),
+//         sellingPriceInput = document.getElementById('selling-price'),
+//         cogsInput =document.getElementById('cogs'),
+//         grossMarginInput =document.getElementById('gross-margin'),
+//         salesMarketingInput =document.getElementById('sales-marketing'),
+//         operationalCostInput =document.getElementById('operational-cost'),
+//         netMarginInput =document.getElementById('net-margin'),
+//         sellingPriceValue,cogsValue,grossMarginValue,
+//         salesMarketingValue,operationalCostValue,netMarginValue;
+
+    function calculate(){
+            console.log('hello');
+// sellingPriceValue = sellingPriceInput.value;
+// cogsValue = cogsInput.value;
+// grossMarginValue = sellingPriceValue - cogsValue;
+// grossMarginInput.value = grossMarginValue;
+
+// salesMarketingValue = salesMarketingInput.value;
+// operationalCostValue = operationalCostInput.value;
+         
+
+//             netMarginValue = grossMarginValue - salesMarketingValue - operationalCostValue;
+//             netMarginInput.value = netMarginValue;
+//         }
+
+        calculatebtn.addEventListener('click',calculate);
+
+
+
+
+        <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+  </head>
+  <style>
+    div {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+  <body>
+    <form action="">
+      <div>
+        <label for="">Selling Price</label>
+        <input type="text" name="sellingPrice" id="selling-price" value="0" />
+      </div>
+      <div>
+        <label for="">COGS(Cost of Goods Sold)</label>
+        <input type="text" name="cogs" id="cogs" value="0" />
+      </div>
+      <div>
+        <label for="">Gross Margin</label>
+        <input type="text" name="grossMargin" id="gross-margin" disabled />
+      </div>
+      <div>
+        <label for="">Sales And Marketing</label>
+        <input
+          type="text"
+          name="salesMarketing"
+          id="sales-marketing"
+          value="0"
+        />
+      </div>
+      <div>
+        <label for="">Operational Cost</label>
+        <input
+          type="text"
+          name="operationalCost"
+          id="operational-cost"
+          value="0"
+        />
+      </div>
+      <div>
+        <label for="">Net Margin</label>
+        <input type="text" name="netMargin" id="net-margin" disabled />
+      </div>
+      <div>
+        <label for="">Calculate</label>
+        <input type="submit" name="calculate" id="net-margin" value= "Calculate" disabled />
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
